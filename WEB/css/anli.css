@@ -1,0 +1,175 @@
+
+.top{
+	width: 100%;
+	height: 478px;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#2c81fa), to(#9fd7fe));
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+.top_1{
+	width: 475px;
+	height: auto;
+}
+.top_2{
+	width: 614px;
+	height: auto;
+}
+.top_wz{
+	width: 500px;
+	height: 70px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	margin-top: 128px;
+	line-height: 35px;
+}
+.top_wz1{
+	width: 500px;
+	height: 100px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	line-height: 35px;
+}
+.tp{
+	width: 100%;
+	height: auto;
+}
+.tp_lr{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.tp_lr-top{
+	width: 100%;
+	height: 76px;
+	font-family: "微软雅黑";
+	font-size: 32px;
+	color: #838282;
+	line-height: 76px;
+	border-bottom: dashed 1px #838282;
+}
+.tp_lr-top-wz{
+	height: 90px;
+	width: 1200px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: black;
+	text-align: center;
+}
+.tp_top-kb{
+	height: 45px;
+	width: 1203px;
+	
+}
+.tupi{
+	width: 1200px;
+	height: auto;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.tp_dyg{
+	width: 400px;
+	height: auto;
+}
+.tp_dyg img{
+	width: 90%;
+	height: auto;
+}
+
+.down1{
+	width: 100%;
+	height: 430px;
+	background-color: #201f1f;
+	display: flex;
+	flex-flow:row ;
+	justify-content: center;
+}
+
+.down-left{
+	width: 600px;
+	height: auto;
+	text-align: right;
+	display: flex;
+	flex-flow: column;
+}
+
+.down1-1{
+	width: 100%;
+	flex: 1;
+}
+.down1-1 img{
+	margin: 0 10px;
+}
+.down1-3{
+	width: 100%;
+	height: 50px;
+	font-family: "微软雅黑";
+	font-size: 32px;
+	color: white;
+	padding-top: 50px;
+	display: flex;
+	flex-flow: row;
+
+}
+.down1-3 span{
+	flex: 1;
+	text-align: right;
+}
+.down1-3 i{
+	width: 10px;
+}
+
+.down1-2{
+	width: 600px;
+	height: auto;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: white;
+	padding-top: 40px;
+	margin-left: 40px;
+}
+.down1-2 div{
+	margin: 20px 0;
+}
+.down1-2-1{
+	height: auto;
+	width: 500px;
+}
+.down1-2-2{
+	text-align: left;
+	width:300px;
+	height: auto;
+}
+.down1-2-3{
+	height: auto;
+	width: 300px;
+	text-align: left;
+}
+.down1-2-4{
+	height: auto;
+	width: 300px;
+	text-align: left;
+}
+.down1-2-5{
+	height: auto;
+	width: 300px;
+	text-align: left;
+}
+.down1-2-6{
+	height: auto;
+	width: 500px;
+	text-align: left;
+}
+
+.down2{
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	padding: 30px 0;
+}

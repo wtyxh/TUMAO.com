@@ -1,0 +1,95 @@
+section {
+  width: 100%;
+  height: auto;
+}
+section .banner {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#0591f3, #7ec9fd);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .banner .b-pardon {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+section .banner .b-pardon .b-text {
+  width: 50%;
+  height: auto;
+  line-height: 0.28rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+section .banner .b-pardon .b-text i {
+  display: block;
+  flex: 1;
+}
+section .banner .b-pardon .b-text p {
+  width: 86%;
+  font-size: 0.15rem;
+  color: white;
+}
+section .banner .b-pardon .b-img {
+  flex: 1;
+  height: auto;
+}
+section .banner .b-pardon .b-img img {
+  width: 100%;
+  height: auto;
+}
+section .location {
+  font-size: 0.15rem;
+  padding: 0.1rem 0;
+  text-indent: 0.2rem;
+  color: #dbdada;
+}
+section .title {
+  margin: 0.2rem 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+section .title .t-title {
+  text-align: center;
+  width: 100%;
+  font-size: 0.3rem;
+}
+section .title .t-segmentation {
+  width: 0.8rem;
+  height: 0.05rem;
+  background: #5A5A5F;
+  margin: 0 auto;
+}
+section .title .t-instructions {
+  text-align: center;
+  color: #818181;
+  font-size: 0.2rem;
+}
+section .s-item {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 0;
+}
+section .s-item ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+section .s-item ul li {
+  width: 2.8rem;
+  height: auto;
+  margin: 0.1rem 0.1rem;
+}
+section .s-item ul li img {
+  width: 100%;
+  height: auto;
+}

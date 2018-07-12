@@ -1,0 +1,419 @@
+section {
+  width: 100%;
+  height: auto;
+}
+section .banner {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#0591f3, #7ec9fd);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .banner .b-pardon {
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+section .banner .b-pardon .b-text {
+  width: 40%;
+  height: auto;
+  line-height: 0.28rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+section .banner .b-pardon .b-text i {
+  display: block;
+  flex: 1;
+}
+section .banner .b-pardon .b-text p {
+  font-size: 0.15rem;
+  color: white;
+  text-indent: 0.2rem;
+}
+section .banner .b-pardon .b-text .bt-title {
+  font-weight: bold;
+  font-size: 0.28rem;
+}
+section .banner .b-pardon .b-text span {
+  font-size: 0.28rem;
+  color: #34a9fa;
+  width: 1.8rem;
+  text-align: center;
+  padding: 0.1rem 0;
+  border-radius: 1rem;
+  background: white;
+  margin-left: 0.15rem;
+  margin-top: 0.05rem;
+}
+section .banner .b-pardon .b-img {
+  flex: 1;
+  height: auto;
+}
+section .banner .b-pardon .b-img img {
+  width: 100%;
+  height: auto;
+}
+section .service {
+  width: 100%;
+  height: auto;
+  padding: 0.3rem 0;
+}
+section .service .s-title {
+  font-size: 0.28rem;
+  text-align: center;
+  font-weight: bold;
+}
+section .service .s-segmentation {
+  width: 2rem;
+  height: 0.1rem;
+  margin: 0.05rem auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .service .s-segmentation .ss-big {
+  flex: 1;
+  height: 0.02rem;
+  background: #5a5a5f;
+  position: relative;
+  top: 0.01rem;
+}
+section .service .s-segmentation .ss-smalll {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.06rem;
+  background: #5a5a5f;
+  margin: 0 0.05rem;
+}
+section .service .s-english {
+  font-size: 0.2rem;
+  text-align: center;
+  color: #aaa9a9;
+}
+section .service .s-item {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+section .service .s-item div {
+  font-size: 0;
+  margin-top: 0.3rem;
+  text-align: center;
+}
+section .service .s-item div img {
+  width: 0.7rem;
+  height: 0.55rem;
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+}
+section .service .s-item div .si-title {
+  font-size: 0.12rem;
+  text-align: center;
+}
+section .service .s-item div .si-instructions {
+  font-size: 0.08rem;
+  text-align: center;
+  color: #8f8f8f;
+}
+section .service .s-item .si-side {
+  flex: 1;
+}
+section .service .s-item .si-center {
+  width: 2。5rem;
+}
+section .enterprise {
+  width: 100%;
+  height: auto;
+  background: #f2f1f1;
+  padding: 0.2rem 0 0.2rem 0;
+  font-size: 0;
+  text-align: center;
+}
+section .enterprise .e-title {
+  font-size: 0.28rem;
+  text-align: center;
+  font-weight: bold;
+}
+section .enterprise .e-instructions {
+  font-size: 0.2rem;
+  text-align: center;
+  color: #aaa9a9;
+  margin: 0.1rem 0;
+}
+section .enterprise img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+section .enterprise .e-more {
+  font-size: 0.2rem;
+  color: #2aa8ea;
+  width: 95%;
+  margin: 0 auto;
+  text-align: right;
+}
+section .mall {
+  width: 100%;
+  height: auto;
+  padding: 0.4rem 0 0.3rem 0;
+  background: #fef6f6;
+}
+section .mall .m-pardon {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+section .mall .m-pardon .mp-text {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+section .mall .m-pardon .mp-text .mpt-title {
+  font-size: 0.28rem;
+  color: black;
+  text-align: center;
+}
+section .mall .m-pardon .mp-text .mpt-title span {
+  color: #f54940;
+}
+section .mall .m-pardon .mp-text .mp-instructions {
+  font-size: 0.2rem;
+  color: #aaa9a9;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+section .mall .m-pardon .mp-img {
+  flex: 1;
+  height: auto;
+  text-align: center;
+}
+section .mall .m-pardon .mp-img img {
+  width: 70%;
+  height: auto;
+}
+section .mall .mp-more {
+  font-size: 0.2rem;
+  color: #FD6059;
+  width: 95%;
+  margin: 0 auto;
+  text-align: right;
+}
+section .system {
+  width: 100%;
+  height: auto;
+  background: #fef6eb;
+  display: flex;
+  flex-flow: column;
+  padding: 0.3rem 0;
+}
+section .system .s-title {
+  font-size: 0.28rem;
+  color: black;
+  text-align: center;
+}
+section .system .s-title span {
+  color: #fcc693;
+}
+section .system .s-instructions {
+  font-size: 0.2rem;
+  color: #aaa9a9;
+  text-align: center;
+  margin: 0.2rem;
+}
+section .system .s-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+section .system .s-img img {
+  width: 70%;
+  height: auto;
+}
+section .system .s-more {
+  font-size: 0.2rem;
+  color: #fad5b2;
+  width: 95%;
+  margin: 0 auto;
+  text-align: right;
+}
+section .pay {
+  width: 100%;
+  height: auto;
+  background: #eff3fe;
+  display: flex;
+  flex-flow: column;
+  padding: 0.3rem 0;
+}
+section .pay .p-title {
+  font-size: 0.28rem;
+  color: black;
+  text-align: center;
+}
+section .pay .p-title span {
+  color: #32a0fe;
+}
+section .pay .p-instructions {
+  font-size: 0.2rem;
+  color: #aaa9a9;
+  text-align: center;
+  margin: 0.2rem 0;
+}
+section .pay .p-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+section .pay .p-img img {
+  width: 70%;
+  height: auto;
+}
+section .pay .p-more {
+  font-size: 0.2rem;
+  color: #6fb2fd;
+  width: 95%;
+  margin: 0 auto;
+  text-align: right;
+}
+section .software {
+  width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-flow: column;
+  padding: 0.3rem 0;
+}
+section .software .so-title {
+  font-size: 0.28rem;
+  color: black;
+  text-align: center;
+}
+section .software .so-title span {
+  color: #1dd786;
+}
+section .software .so-instructions {
+  font-size: 0.2rem;
+  color: #aaa9a9;
+  text-align: center;
+  margin: 0.2rem 0;
+}
+section .software .so-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+section .software .so-img img {
+  width: 70%;
+  height: auto;
+}
+section .software .so-more {
+  font-size: 0.2rem;
+  color: #44b19c;
+  width: 95%;
+  margin: 0 auto;
+  text-align: right;
+}
+section .marketing {
+  width: 100%;
+  height: auto;
+  background: #fcf6ed;
+  display: flex;
+  flex-flow: column;
+  padding: 0.3rem 0;
+}
+section .marketing .m-title {
+  font-size: 0.28rem;
+  color: black;
+  text-align: left;
+  text-indent: 18%;
+}
+section .marketing .m-title span {
+  color: #fb9e2c;
+}
+section .marketing .m-instructions {
+  font-size: 0.23rem;
+  color: #aaa9a9;
+  text-align: center;
+  margin: 0.2rem 0;
+}
+section .marketing .m-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+section .marketing .m-img img {
+  width: 40%;
+  height: auto;
+}
+section .marketing .m-more {
+  font-size: 0.2rem;
+  color: #fb9a20;
+  width: 95%;
+  margin: 0 auto;
+  text-align: right;
+}
+section .custom {
+  width: 100%;
+  height: auto;
+  padding: 0.3rem 0;
+}
+section .custom .c-title {
+  font-size: 0.28rem;
+  text-align: center;
+  font-weight: bold;
+}
+section .custom .c-segmentation {
+  width: 2rem;
+  height: 0.1rem;
+  margin: 0.05rem auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .custom .c-segmentation .cs-big {
+  flex: 1;
+  height: 0.02rem;
+  background: #5a5a5f;
+  position: relative;
+  top: 0.01rem;
+}
+section .custom .c-segmentation .cs-smalll {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.06rem;
+  background: #5a5a5f;
+  margin: 0 0.05rem;
+}
+section .custom .c-english {
+  font-size: 0.2rem;
+  text-align: center;
+  color: #aaa9a9;
+  margin-bottom: 0.2rem;
+}
+section .custom .c-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+section .custom .c-img img {
+  width: 70%;
+  height: auto;
+}

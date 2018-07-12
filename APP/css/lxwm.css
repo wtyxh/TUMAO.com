@@ -1,0 +1,188 @@
+section {
+  width: 100%;
+  height: auto;
+}
+section .banner {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#0591f3, #7ec9fd);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .banner .b-pardon {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+section .banner .b-pardon .b-text {
+  width: 50%;
+  height: auto;
+  line-height: 0.28rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+section .banner .b-pardon .b-text i {
+  display: block;
+  flex: 1;
+}
+section .banner .b-pardon .b-text p {
+  width: 86%;
+  font-size: 0.15rem;
+  color: white;
+}
+section .banner .b-pardon .b-img {
+  flex: 1;
+  height: auto;
+}
+section .banner .b-pardon .b-img img {
+  width: 100%;
+  height: auto;
+}
+section .location {
+  font-size: 0.15rem;
+  padding: 0.1rem 0;
+  text-indent: 0.2rem;
+  color: #dbdada;
+}
+section .content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+  font-size: 0;
+  text-align: center;
+  border-bottom: 1px solid #DBDADA;
+}
+section .content .c-title {
+  text-align: center;
+  font-size: 0.25rem;
+}
+section .content .c-segmentation {
+  width: 2rem;
+  height: 0.1rem;
+  margin: 0.05rem auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .content .c-segmentation .cs-big {
+  flex: 1;
+  height: 0.01rem;
+  background: #5a5a5f;
+  position: relative;
+  top: 0.02rem;
+}
+section .content .c-segmentation .cs-smalll {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.04rem;
+  background: #5a5a5f;
+  margin: 0 0.05rem;
+}
+section .content .c-english {
+  text-align: center;
+  font-size: 0.2rem;
+  color: #8F8F8F;
+  margin-bottom: 0.3rem;
+}
+section .content .c-img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 0;
+}
+section .content .c-img img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+section .content .c-form {
+  width: 65%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  text-align: left;
+}
+section .content .c-form form {
+  width: 100%;
+  height: auto;
+}
+section .content .c-form form .cf-focus {
+  color: red;
+  font-size: 0.15rem;
+  text-align: center;
+}
+section .content .c-form form .cf-text {
+  font-size: 0.15rem;
+  color: black;
+  text-align: left;
+  margin: 0.1rem 0;
+}
+section .content .c-form form .cf-textarea {
+  width: 100%;
+  height: 1rem;
+  outline: none;
+  border-radius: 0.1rem;
+  padding: 0.1rem 0.1rem;
+  border: 1px solid #DBDADA;
+  resize: none;
+  font-size: 0.15rem;
+}
+section .content .c-form form .cf-input {
+  width: 100%;
+  font-size: 0.15rem;
+  padding: 0.1rem 0.1rem;
+  border-radius: 0.1rem;
+  outline: none;
+  border: 1px solid #DBDADA;
+}
+section .content .c-form form .cf-validation {
+  display: flex;
+  flex-flow: row;
+  width: 4rem;
+  margin: 0.1rem 0;
+  height: auto;
+  background: #32a0ff;
+  border-radius: 0.1rem;
+  overflow: hidden;
+}
+section .content .c-form form .cf-validation input {
+  flex: 1;
+  font-size: 0.15rem;
+  padding: 0.1rem 0.1rem;
+  border-top-left-radius: 0.1rem;
+  border-bottom-left-radius: 0.1rem;
+  border: 1px solid #DBDADA;
+}
+section .content .c-form form .cf-validation span {
+  font-size: 0.15rem;
+  color: black;
+  padding: 0.1rem 0.1rem;
+  color: white;
+  white-space: nowrap;
+}
+section .content .c-form form .cf-submit {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #9acefd;
+  border: 1px solid #9ACEFD;
+  margin-top: 0.1rem;
+  border-radius: 0.1rem;
+  padding: 0rem 0.1rem;
+}
+section .content .c-form form .cf-submit input {
+  width: 100%;
+  height: auto;
+  padding: 0.1rem 0.1rem;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 0.15rem;
+}

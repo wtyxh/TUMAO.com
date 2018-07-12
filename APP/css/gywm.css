@@ -1,0 +1,127 @@
+section {
+  width: 100%;
+  height: auto;
+}
+section .banner {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#0591f3, #7ec9fd);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .banner .b-pardon {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+section .banner .b-pardon .b-text {
+  width: 50%;
+  height: auto;
+  line-height: 0.28rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+section .banner .b-pardon .b-text i {
+  display: block;
+  flex: 1;
+}
+section .banner .b-pardon .b-text p {
+  width: 86%;
+  font-size: 0.15rem;
+  color: white;
+}
+section .banner .b-pardon .b-img {
+  flex: 1;
+  height: auto;
+}
+section .banner .b-pardon .b-img img {
+  width: 100%;
+  height: auto;
+}
+section .location {
+  font-size: 0.15rem;
+  padding: 0.1rem 0;
+  text-indent: 0.2rem;
+  color: #dbdada;
+}
+section .content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+  font-size: 0;
+  text-align: center;
+  border-bottom: 1px solid #DBDADA;
+}
+section .content .c-title {
+  text-align: center;
+  font-size: 0.25rem;
+}
+section .content .c-segmentation {
+  width: 2rem;
+  height: 0.1rem;
+  margin: 0.05rem auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .content .c-segmentation .cs-big {
+  flex: 1;
+  height: 0.01rem;
+  background: #5a5a5f;
+  position: relative;
+  top: 0.02rem;
+}
+section .content .c-segmentation .cs-smalll {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.04rem;
+  background: #5a5a5f;
+  margin: 0 0.05rem;
+}
+section .content .c-english {
+  text-align: center;
+  font-size: 0.2rem;
+  color: #8F8F8F;
+  margin-bottom: 0.3rem;
+}
+section .content .ct-pardon {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.1rem;
+}
+section .content .ct-pardon .c-text {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  text-indent: 0.4rem;
+  line-height: 0.3rem;
+  letter-spacing: 0.02rem;
+  text-align: left;
+  margin-bottom: 0.4rem;
+}
+section .content .ct-pardon .c-textt {
+  letter-spacing: 0.02rem;
+  text-align: left;
+  font-size: 0.2rem;
+  width: 80%;
+  height: auto;
+  margin: 0.1rem auto;
+}
+section .content .ct-pardon .c-textt .ctt-three {
+  letter-spacing: 0.12rem;
+  text-align: right;
+}
+section .content .c-direction {
+  display: inline-block;
+  font-size: 0.2rem;
+  padding: 0.1rem 0.1rem;
+  border: 1px solid #DBDADA;
+  margin: 0.1rem auto;
+}
