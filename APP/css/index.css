@@ -4,7 +4,7 @@ section {
 }
 section .banner {
   width: 100%;
-  height: auto;
+  height: 4rem;
   background: linear-gradient(#0591f3, #7ec9fd);
   display: flex;
   flex-flow: row;
@@ -53,6 +53,9 @@ section .banner .b-pardon .b-text span {
 section .banner .b-pardon .b-img {
   flex: 1;
   height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 section .banner .b-pardon .b-img img {
   width: 100%;

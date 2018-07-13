@@ -21,7 +21,7 @@ header {
         height: auto;
         display: flex;
         flex-flow: row;
-        img{
+        img {
             width: 2rem;
             height: 0.6rem;
             padding: 0.1rem 0.2rem;
@@ -35,40 +35,48 @@ header {
             height: 0.8rem;
             line-height: 0.8rem;
         }
-        .nav-active{
+        .nav-active {
             background: #3091d6;
             color: white;
         }
     }
+    .fix-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: 1;
+    }
 }
+
 //底部信息栏
-footer{
+footer {
     width: 100%;
     height: auto;
     background: #201f1f;
     padding: 0.3rem 0;
-    .f-pardon{
+    .f-pardon {
         width: 90%;
         height: auto;
         margin: 0 auto;
         display: flex;
         flex-flow: row;
         justify-content: center;
-        .fp-left{
-            width: 40%;
+        .fp-left {
+            width: 35%;
             height: auto;
             display: flex;
             flex-flow: column;
             justify-content: space-around;
             text-align: center;
-            .fpl-title{
+            .fpl-title {
                 font-size: 0.2rem;
                 text-align: center;
                 color: white;
                 position: relative;
                 top: 0.2rem;
             }
-            img{
+            img {
                 width: 2rem;
                 height: auto;
                 margin: 0.2rem auto;
@@ -76,42 +84,42 @@ footer{
                 top: -0.2rem;
             }
         }
-        .fp-right{
+        .fp-right {
             flex: 1;
             height: auto;
             font-size: 0;
-            .fpr-item{
+            .fpr-item {
                 width: 100%;
                 height: auto;
                 display: flex;
                 flex-flow: row;
                 text-align: center;
                 margin: 0.3rem 0;
-                .fpri-img{
+                .fpri-img {
                     flex: 1;
                     height: auto;
-                    img{
+                    img {
                         width: 0.2rem;
                         height: auto;
                     }
-                    .fpri-img1{
+                    .fpri-img1 {
                         position: relative;
                         top: 0.02rem;
                     }
-                    .fpri-img2{
+                    .fpri-img2 {
                         width: 0.12rem;
                         height: auto;
                     }
-                    .fpri-img3{
+                    .fpri-img3 {
                         position: relative;
                         top: 0.02rem;
                     }
-                    .fpri-img4{
+                    .fpri-img4 {
                         position: relative;
                         top: 0.07rem;
                     }
                 }
-                span{
+                span {
                     width: 80%;
                     height: auto;
                     display: block;
@@ -123,48 +131,78 @@ footer{
             }
         }
     }
-    .belongs{
+    .belongs {
         width: 100%;
         height: auto;
         padding: 0.2rem 0;
         text-align: center;
         background: white;
-        p{
+        padding-bottom: 1rem;
+        p {
             color: black;
             text-align: center;
             font-size: 0.2rem
         }
     }
     //联系方法
-    .contact{
+    .contact {
         width: 100%;
         height: auto;
         position: fixed;
         bottom: 0;
         left: 0;
         font-size: 0;
-        background: rgba(255, 255, 255, 0.5);
-        ul{
+        background: white;
+        z-index: 3;
+        ul {
             width: 100%;
             height: auto;
             display: flex;
             flex-flow: row;
             justify-content: space-between;
-            li{
+            li {
                 list-style: none;
                 flex: 1;
                 text-align: center;
                 padding: 0.1rem 0;
                 display: block;
-                img{
+                img {
                     width: auto;
                     height: 0.6rem;
                 }
-                p{
+                p {
                     font-size: 0.2rem;
                     color: black;
                     margin-top: 0.1rem;
                 }
+            }
+        }
+    }
+    //微信二维码
+    .weChat {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        display: none;
+        .w-pardon {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            i {
+                display: block;
+                flex: 1;
+            }
+            img {
+                width: 70%;
+                height: auto;
+                margin: 0 auto;
             }
         }
     }

@@ -20,6 +20,13 @@
 				<a href="gywm.html">关于我们</a>
 				<a href="lxwm.html">联系我们</a>
 			</nav>
+			<nav class="fix-nav">
+				<img src="img/index/logo.png" alt="logo" />
+				<a href="index.html">首页</a>
+				<a href="zxal.html" class="nav-active">最新案例</a>
+				<a href="gywm.html">关于我们</a>
+				<a href="lxwm.html">联系我们</a>
+			</nav>
 		</header>
 		<section>
 			<!-- banner -->
@@ -89,28 +96,40 @@
 				</div>
 			</div>
 			<div class="belongs">
-				<p>重庆途猫科技有限公司 @TM1688.COM 版权所有 备案号：123456</p>
+				<p>重庆途猫科技有限公司 @TM1688.COM 版权所有 渝ICP备18009250号</p>
 			</div>
 			<!--联系方法（底部QQ、 电话、微信、消息）-->
 			<div class="contact">
 				<ul>
 					<li>
-						<img src="img/index/90c1d70c6bb63cd4719b47964e7d22a5@2x.png" alt="电话咨询" title="电话咨询" />
-						<p>电话咨询</p>
+						<a href="tel:18502367112" style="display: block; text-decoration: none;">
+							<img src="img/index/90c1d70c6bb63cd4719b47964e7d22a5@2x.png" alt="电话咨询" title="电话咨询" />
+							<p>电话咨询</p>
+						</a>
 					</li>
-					<li>
+					<li onclick="chatQQ();">
 						<img src="img/index/df646840a9e08d714360d6dbba18a6eb@2x.png" alt="QQ" title="QQ" />
 						<p>QQ</p>
 					</li>
-					<li>
+					<li onclick="showWechat();">
 						<img src="img/index/090b1852fc8ab4eeea0b1c5af63ab834@2x.png" alt="微信" title="微信" />
 						<p>微信</p>
 					</li>
 					<li>
-						<img src="img/index/消息@2x.png" alt="消息" title="消息" />
-						<p>消息</p>
+						<a href="lxwm.html" style="display: block; text-decoration: none;">
+							<img src="img/index/消息@2x.png" alt="消息" title="消息" />
+							<p>留言</p>
+						</a>
 					</li>
 				</ul>
+			</div>
+			<!--微信二维码联系方式-->
+			<div class="weChat" id="weChat">
+				<div class="w-pardon">
+					<i></i>
+					<img src="img/index/12.jpg" alt="途猫二维码" title="途猫二维码" />
+					<i></i>
+				</div>
 			</div>
 		</footer>
 		<script type="text/javascript" src="vendoor/webapp.js"></script>

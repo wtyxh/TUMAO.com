@@ -23,7 +23,20 @@ function resize() {
 	doc.addEventListener('DOMContentLoaded', recalc, false);
 }
 resize();
-setTimeout(show,1)
+setTimeout(show, 1)
+
 function show() {
 	document.getElementById("body").style.visibility = "visible"
+}
+//qq联系
+function chatQQ() {
+	/*1234567对应的就是需要聊天的客服*/
+	window.location.href = "mqqwpa://im/chat?chat_type=wpa&uin=519363006&version=1&src_type=web&web_src=oicqzone.com";
+}
+//微信联系
+function showWechat(){
+	document.getElementById('weChat').style.display = 'block'
+}
+document.getElementById('weChat').onclick = function(){
+	document.getElementById('weChat').style.display = 'none'
 }
