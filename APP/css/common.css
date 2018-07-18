@@ -49,6 +49,7 @@ footer {
   height: auto;
   background: #201f1f;
   padding: 0.3rem 0;
+  padding-bottom: 1.3rem;
 }
 footer .f-pardon {
   width: 90%;
@@ -56,97 +57,111 @@ footer .f-pardon {
   margin: 0 auto;
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #313030;
+  padding-bottom: 0.3rem;
 }
 footer .f-pardon .fp-left {
-  width: 35%;
-  height: auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  text-align: center;
-}
-footer .f-pardon .fp-left .fpl-title {
-  font-size: 0.2rem;
-  text-align: center;
-  color: white;
-  position: relative;
-  top: 0.2rem;
-}
-footer .f-pardon .fp-left img {
-  width: 2rem;
-  height: auto;
-  margin: 0.2rem auto;
-  position: relative;
-  top: -0.2rem;
-}
-footer .f-pardon .fp-right {
-  flex: 1;
-  height: auto;
-  font-size: 0;
-}
-footer .f-pardon .fp-right .fpr-item {
-  width: 100%;
+  width: 50%;
   height: auto;
   display: flex;
   flex-flow: row;
-  text-align: center;
-  margin: 0.3rem 0;
+  justify-content: center;
+  border-right: 1px solid #313030;
 }
-footer .f-pardon .fp-right .fpr-item .fpri-img {
-  flex: 1;
+footer .f-pardon .fp-left .fpl-img {
+  width: 0.8rem;
   height: auto;
 }
-footer .f-pardon .fp-right .fpr-item .fpri-img img {
-  width: 0.2rem;
-  height: auto;
-}
-footer .f-pardon .fp-right .fpr-item .fpri-img .fpri-img1 {
-  position: relative;
-  top: 0.02rem;
-}
-footer .f-pardon .fp-right .fpr-item .fpri-img .fpri-img2 {
-  width: 0.12rem;
-  height: auto;
-}
-footer .f-pardon .fp-right .fpr-item .fpri-img .fpri-img3 {
-  position: relative;
-  top: 0.02rem;
-}
-footer .f-pardon .fp-right .fpr-item .fpri-img .fpri-img4 {
-  position: relative;
-  top: 0.07rem;
-}
-footer .f-pardon .fp-right .fpr-item span {
-  width: 80%;
-  height: auto;
-  display: block;
-  text-align: left;
-  font-size: 0.2rem;
-  color: white;
-  line-height: 0.3rem;
-}
-footer .belongs {
+footer .f-pardon .fp-left .fpl-img img {
   width: 100%;
   height: auto;
-  padding: 0.2rem 0;
-  text-align: center;
-  background: white;
-  padding-bottom: 1rem;
 }
-footer .belongs p {
-  color: black;
+footer .f-pardon .fp-left .fpl-text {
+  font-size: 0.14rem;
+  color: white;
+  position: relative;
+  top: 0.2rem;
+  text-indent: 0.1rem;
+  line-height: 0.25rem;
+}
+footer .f-pardon .fp-left .fpl-text p {
+  font-weight: bold;
+}
+footer .f-pardon .fp-left .fpl-text p:first-child {
+  font-weight: normal;
+}
+footer .f-pardon .fp-right {
+  width: 45%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-size: 0;
+}
+footer .f-pardon .fp-right .fpr-content {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 0.07rem;
+}
+footer .f-pardon .fp-right .fpr-content .fprc-img {
+  position: absolute;
+  top: 0;
+  left: 0.1rem;
+  width: 0.15rem;
+  height: auto;
+}
+footer .f-pardon .fp-right .fpr-content .fprc-img img {
+  width: 100%;
+  height: auto;
+}
+footer .f-pardon .fp-right .fpr-content .fprc-contact {
+  position: absolute;
+  top: -0.01rem;
+  width: 0.15rem;
+  height: auto;
+}
+footer .f-pardon .fp-right .fpr-content .fprc-email {
+  position: absolute;
+  top: 0.04rem;
+  width: 0.16rem;
+  height: auto;
+}
+footer .f-pardon .fp-right .fpr-content .fprc-address {
+  position: absolute;
+  top: 0.02rem;
+  left: 0.11rem;
+  width: 0.13rem;
+  height: auto;
+}
+footer .f-pardon .fp-right .fpr-content p {
+  width: 80%;
+  margin-left: 15%;
+  font-size: 0.14rem;
+  color: white;
+  font-weight: bold;
+  opacity: 0.9;
+}
+footer .f-pardon .fp-right .fpr-content:first-child {
+  margin-top: 0.08rem;
+}
+footer .d-attribution {
+  width: 100%;
+  height: auto;
   text-align: center;
-  font-size: 0.2rem;
+  color: white;
+  font-size: 0.14rem;
+  margin: 0.2rem 0;
+  opacity: 0.5rem;
 }
 footer .contact {
   width: 100%;
   height: auto;
   position: fixed;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   font-size: 0;
-  background: white;
+  background: rgba(28, 188, 229, 0.8);
   z-index: 3;
 }
 footer .contact ul {
@@ -163,14 +178,29 @@ footer .contact ul li {
   padding: 0.1rem 0;
   display: block;
 }
-footer .contact ul li img {
-  width: auto;
-  height: 0.6rem;
+footer .contact ul li div {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../img/bottom.png) no-repeat;
+  background-size: auto 0.8rem;
+  background-position: 0 0;
+  margin: 0 auto;
+}
+footer .contact ul li .c-telimg {
+  background-position: 0rem 0rem;
+}
+footer .contact ul li .c-qqimg {
+  background-position: -0.8rem 0rem;
+}
+footer .contact ul li .chatimg {
+  background-position: -1.6rem 0rem;
+}
+footer .contact ul li .c-lyimg {
+  background-position: -2.4rem 0rem;
 }
 footer .contact ul li p {
   font-size: 0.2rem;
-  color: black;
-  margin-top: 0.1rem;
+  color: white;
 }
 footer .weChat {
   position: fixed;

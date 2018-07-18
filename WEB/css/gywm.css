@@ -2,6 +2,7 @@
 .top{
 	width: 100%;
 	height: 478px;
+	background: #50b4fa;
 	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#9ce4fb), to(#4bb0f7));
 	display: flex;
 	flex-flow: row;
@@ -38,19 +39,19 @@
 }
 .tp{
 	width: 100%;
-	height: 700px;
+	height: auto;
 }
 
 .tp_lr{
 	width: 1200px;
-	height: 620px;
+	height: auto;
 	margin: 0 auto;
 }
 .tp_lr-top{
 	width: 1200px;
 	height: 76px;
 	font-family: "微软雅黑";
-	font-size: 32px;
+	font-size: 16px;
 	color: #838282;
 	line-height: 76px;
 	border-bottom: dashed 1px #838282;
@@ -75,9 +76,12 @@
 }
 .wz{
 	width: 1200px;
-	height: 430px;
-	line-height: 40px;
+	height: auto;
+	line-height: 30px;
 	font-size: 15px;
 	text-indent: 2em;
+	padding-bottom: 40px;
 }
-
+.wz p{
+	line-height: 30px;
+}

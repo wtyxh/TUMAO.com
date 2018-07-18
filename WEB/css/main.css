@@ -1,316 +1,409 @@
-
-.lr{
-    width: 100%;
-	height: 670px;
-	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#1196f4), to(#7dc8fd));
+.lr {
+	width: 100%;
+	height: 478px;
+	background: #50b4fa;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1196f4), to(#7dc8fd));
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
-	
 }
-.lr-1{
-	width: 415px;
+
+.lr-1 {
+	width: 490px;
 	height: 228px;
 	font-family: "微软雅黑";
 	color: white;
-	font-size: 20px;
-	padding-top: 195px;
-	line-height: 35px;
+	font-size: 14px;
+	padding-top: 132px;
+	line-height: 25px;
 }
-.lr-2{
+
+.lr-2 {
 	width: 612px;
 	height: 384px;
-	background-image:url(../img/1.jpg);
+	background-image: url(../img/1.jpg);
 	position: relative;
-	top: 173px;
+	top: 55px;
 }
-.lr-3{
+
+.lr-3 {
 	width: 130px;
 	height: 30px;
 	font-family: "微软雅黑";
-	font-size: 20px;
+	font-size: 14px;
 	color: white;
 	position: absolute;
 	left: 0;
 	top: 0;
-	margin-left: -11px;
-    margin-top: 255px;
-	
+	margin-left: 0px;
+	margin-top: 255px;
 }
-.lr-4{
+
+.lr-4 {
 	width: 130px;
 	height: 30px;
 	font-family: "微软雅黑";
-	font-size: 20px;
+	font-size: 14px;
 	color: white;
 	position: absolute;
 	left: 0;
 	top: 0;
-	margin-left: 100px;
-    margin-top: 327px;
+	margin-left: 111px;
+	margin-top: 327px;
 }
-.lr-5{
+
+.lr-5 {
 	width: 130px;
 	height: 30px;
 	font-family: "微软雅黑";
-	font-size: 20px;
+	font-size: 14px;
 	color: white;
 	position: absolute;
 	left: 0;
 	top: 0;
-	margin-left: 508px;
-    margin-top: 365px;
+	margin-left: 529px;
+	margin-top: 365px;
 }
-.lr-6{
+
+.lr-6 {
 	width: 130px;
 	height: 30px;
 	font-family: "微软雅黑";
-	font-size: 20px;
+	font-size: 14px;
 	color: white;
 	position: absolute;
 	left: 0;
 	top: 0;
-	margin-left: 106px;
-    margin-top: -20px;
+	margin-left: 153px;
+	margin-top: -20px;
 }
-.lr2{
+
+.lr2 {
 	width: 100%;
 	height: auto;
 }
-.lr2-1{
+
+.lr2-1 {
 	width: 100%;
 	height: auto;
 	font-family: "平方";
-	font-size: 20px;
+	font-size: 18px;
 	color: black;
 	text-align: center;
-	margin:0 auto;
-	padding-top: 20px;
+	margin: 0 auto;
+	padding-top: 50px;
 }
-.lr2-2{
-	width: 100%;
+
+.lr2-2 {
+	width: 1030px;
 	height: auto;
 	margin: 0 auto;
-	text-align:  center;
+	text-align: center;
 	display: flex;
 	flex-flow: row;
+	justify-content: space-between;
+	padding-bottom: 130px;
+}
+
+.lr2-2 .lr-i {
+	flex: 1;
+}
+
+.lr2-2 div div p {
+	font-size: 18px;
+}
+
+.lr2-2>div {
+	transition: all 0.3s;
+}
+
+.lr2-2>div:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 10px 0px #DDDDDE;
+}
+
+.lr2-4 {
+	width: 300px;
+	height: 280px;
+	margin-top: 70px;
+	display: flex;
+	flex-flow: column;
 	justify-content: center;
-	padding-bottom: 30px;
-}
-.lr2-4{
-	width: 393px;
-	height: auto;
-	float: left;
-	margin-top: 70px;
-	
-}
-.lr2-4 img{
-		display: block;
-		margin: 0 auto;
-	}
-	
-.lr2-5{
-	width: 393px;
-	height: auto;
-	float: left;
-	margin-top: 70px;
-	
+	box-shadow: 0px 0px 10px 0px #DDDDDE;
 }
 
-.lr2-5 img{
-		display: block;
-		margin: 0 auto;
-	}
-.lr2-6{
-	width: 393px;
+.lr2-4 img {
+	width: 78px;
 	height: auto;
-	float: left;
-	margin-top: 70px;
-	
+	display: block;
+	margin: 0 auto;
 }
-.lr2-6 img{
-		display: block;
-		margin: 0 auto;
-	}
 
+.lr2-5 {
+	width: 300px;
+	height: 280px;
+	margin-top: 70px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	box-shadow: 0px 0px 10px 0px #DDDDDE;
+}
 
-.lr3{
+.lr2-5 img {
+	width: 78px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.lr2-6 {
+	width: 300px;
+	height: 280px;
+	margin-top: 70px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	box-shadow: 0px 0px 10px 0px #DDDDDE;
+}
+
+.lr2-6 img {
+	width: 78px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.lr3 {
 	width: 100%;
 	height: auto;
-	background-color: #ddddde;
+	background-color: #eeeeee;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
 }
 
-.lr3-1{
+.lr3-1 {
 	width: 360px;
 	height: 613px;
 }
-.lr3-2{
+
+.lr3-2 {
 	width: 600px;
 	height: 613px;
-	
 }
-.lr3-2 img{
-		width: 100%;
-		height: auto;
-	}
 
-.lr3-3{
+.lr3-2 img {
+	width: 100%;
+	height: auto;
+}
+
+.lr3-3 {
 	width: 300px;
 	height: 300px;
 	margin-top: 260px;
 	font-family: "微软雅黑";
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
-	padding-left: 30px;
+	padding-left: 60px;
 }
-.lr3-4{
+
+.lr3-4 {
 	width: 128px;
 	height: 30px;
 	border-radius: 50px;
 	font-family: "微软雅黑";
 	color: white;
 	background-color: #f54940;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 	line-height: 30px;
-
+	display: block;
+	text-decoration: none;
 }
-.lr4{
+
+.lr4 {
 	width: 100%;
 	height: 610px;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
 }
-.lr4-1{
+
+.lr4-1 {
 	width: 380px;
 	height: 610px;
 }
-.lr4-2{
+
+.lr4-2 {
 	width: 210px;
 	height: auto;
 }
-.lr4-3{
+
+.lr4-3 {
 	width: 100%;
 	height: 300px;
 	margin-top: 260px;
 	font-family: "微软雅黑";
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
-	
 }
-.lr5{
+
+.lr5 {
 	width: 100%;
 	height: 610px;
-	background-color: #f7f7f7;
+	background-color: #eeeeee;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
 }
-.lr5-1{
+
+.lr5-1 {
 	width: 560px;
 	height: 610px;
 }
-.lr5-2{
+
+.lr5-2 {
 	width: 627px;
 	height: auto;
-	
 }
-.lr5-2 img{
+
+.lr5-2 img {
 	width: 100%;
 	height: auto;
 }
-.lr5-3{
+
+.lr5-3 {
 	width: 250px;
 	height: 300px;
 	margin-top: 260px;
 	margin-left: 20px;
 	font-family: "微软雅黑";
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
-	
 }
-.fix{
+
+.fix {
 	width: 100px;
-	height: 315px;
+	height: auto;
 	position: fixed;
 	right: 0;
 	top: 150px;
 }
-.fix1{
+
+.fix1 {
 	width: 100px;
 	height: 105px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	background: #0fcafd;
+	margin: 1px 0;
+	cursor: pointer;
 }
 
-.lr6{
+.fix1 p {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+.f-img {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.f-QQ {
+	background: url(../img/fixri.png)no-repeat;
+	background-size: 50px;
+	background-position: 0px 0px;
+}
+
+.f-wchat {
+	background: url(../img/fixri.png)no-repeat;
+	background-size: 50px;
+	background-position: 0px -60px;
+}
+
+.f-phone {
+	background: url(../img/fixri.png)no-repeat;
+	background-size: 50px;
+	background-position: 0px -120px;
+}
+
+.lr6 {
 	width: 100%;
 	height: auto;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
-
 }
-.lr6-1{
+
+.lr6-1 {
 	width: 250px;
 	height: 610px;
-	
 }
-.lr6-2{
+
+.lr6-2 {
 	width: 766px;
 	height: auto;
 }
-.lr6-2 img{
+
+.lr6-2 img {
 	width: 100%;
 	height: auto;
 }
-.lr6-3{
-	width:90%;
+
+.lr6-3 {
+	width: 90%;
 	height: auto;
 	font-family: "微软雅黑";
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
 	text-align: left;
 	padding-top: 273px;
 }
-.lr7{
+
+.lr7 {
 	width: 100%;
 	height: 610px;
-	background: rgba(242,242,242,0.3);
+	background: #eeeeee;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
 }
-.lr7-1{
+
+.lr7-1 {
 	width: 360px;
 	height: 610px;
 }
-.lr7-2{
+
+.lr7-2 {
 	width: 686px;
 	height: auto;
 }
-.lr7-2 img{
+
+.lr7-2 img {
 	width: 100%;
 	height: auto;
 }
-.lr7-3{
+
+.lr7-3 {
 	width: 280px;
 	height: 300px;
 	margin-left: 10px;
 	margin-top: 260px;
 	font-family: "微软雅黑";
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
-	
 }
-.lr8{
+
+.lr8 {
 	width: 100%;
 	height: 379 px;
 	border-bottom: solid 1px #ddddde;
@@ -318,49 +411,175 @@
 	flex-flow: row;
 	justify-content: center;
 }
-.lr8-1{
+
+.lr8-1 {
 	width: 600px;
 	height: 380px;
-
 }
-.lr8-2{
+
+.lr8-2 {
 	width: 600px;
 	height: 380px;
 	text-align: center;
 }
 
-.lr8-3{
+.lr8-3 {
 	margin: 0 auto;
 	width: 300px;
 	height: auto;
 	font-family: "微软雅黑";
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
 	padding-top: 120px;
 	text-align: right;
 }
 
-
-.lr9{
+.lr9 {
 	width: 100%;
 	height: auto;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
-	padding-bottom: 30px;
+	padding: 30px 0 100px 0;
+	background: #eeeeee;
 }
 
-.lr9-2{
+.lr9-2 {
 	width: 1200px;
 	height: auto;
 	text-align: center;
 }
-.lr9-2 img{
-	position: relative;
-	left: -50px;
+
+.process-img {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	margin-top: 40px;
 }
-.lr9-seg{
+
+.pi-top {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.pi-top ul {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+
+.pi-top ul li {
+	width: 113px;
+	height: 113px;
+	text-align: center;
+	background: #fc8a03;
+	list-style: none;
+	border-radius: 50%;
+}
+
+.pi-top ul li p {
+	font-size: 18px;
+}
+
+.pi-top ul li p:first-child {
+	margin-top: 25px;
+}
+
+.pi-center {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 20px 0;
+}
+
+.pic-round {
+	position: relative;
+	z-index: 2;
+	width: 1050px;
+	height: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.pic-round li {
+	width: 12px;
+	height: 12px;
+	background: #4e4d4b;
+	border: 1px solid #fb8b03;
+	list-style: none;
+	border-radius: 50%;
+}
+
+.pic-line {
+	position: absolute;
+	top: 6px;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 1px;
+	background: #fb8b03;
+}
+
+.pic-text {
+	width: 1020px;
+	height: auto;
+	position: absolute;
+	top: -18px;
+	left: 80px;
+	text-align: left;
+}
+
+.pic-text span {
+	display: inline-block;
+	width: 130px;
+	height: auto;
+	margin-right: 122px;
+	text-align: center;
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+.pi-buttom {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.pi-buttom ul {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+
+.pi-buttom ul li {
+	width: 113px;
+	height: 113px;
+	text-align: center;
+	background: #434343;
+	list-style: none;
+	border-radius: 50%;
+}
+
+.pi-buttom ul li p {
+	font-size: 18px;
+	color: white;
+}
+
+.pi-buttom ul li p:first-child {
+	margin-top: 25px;
+}
+
+.lr9-seg {
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -368,12 +587,14 @@
 	justify-content: center;
 	margin: 3px 0;
 }
-.lr9s-long{
+
+.lr9s-long {
 	width: 65px;
 	height: 1px;
 	background: #DDDDDE;
 }
-.lr9s-short{
+
+.lr9s-short {
 	width: 20px;
 	height: 2px;
 	background: black;

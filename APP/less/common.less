@@ -55,104 +55,119 @@ footer {
     height: auto;
     background: #201f1f;
     padding: 0.3rem 0;
+    padding-bottom: 1.3rem;
     .f-pardon {
         width: 90%;
         height: auto;
         margin: 0 auto;
         display: flex;
         flex-flow: row;
-        justify-content: center;
-        .fp-left {
-            width: 35%;
+        justify-content: space-between;
+        border-bottom: 1px solid #313030;
+        padding-bottom: 0.3rem;
+        .fp-left{
+            width: 50%;
             height: auto;
             display: flex;
-            flex-flow: column;
-            justify-content: space-around;
-            text-align: center;
-            .fpl-title {
-                font-size: 0.2rem;
-                text-align: center;
+            flex-flow: row;
+            justify-content: center;
+            border-right: 1px solid #313030;
+            .fpl-img{
+                width: 0.8rem;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .fpl-text{
+                font-size: 0.14rem;
                 color: white;
                 position: relative;
                 top: 0.2rem;
-            }
-            img {
-                width: 2rem;
-                height: auto;
-                margin: 0.2rem auto;
-                position: relative;
-                top: -0.2rem;
+                text-indent: 0.1rem;
+                line-height: 0.25rem;
+                p{
+                    font-weight: bold;
+                }
+                p:first-child{
+                    font-weight: normal;
+                }
             }
         }
-        .fp-right {
-            flex: 1;
-            height: auto;
+        .fp-right{
+            width: 45%;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
             font-size: 0;
-            .fpr-item {
+            .fpr-content{
                 width: 100%;
                 height: auto;
-                display: flex;
-                flex-flow: row;
-                text-align: center;
-                margin: 0.3rem 0;
-                .fpri-img {
-                    flex: 1;
+                position: relative;
+                margin-top: 0.07rem;
+                .fprc-img{
+                    position: absolute;
+                    top: 0;
+                    left: 0.1rem;
+                    width: 0.15rem;
                     height: auto;
-                    img {
-                        width: 0.2rem;
+                    img{
+                        width: 100%;
                         height: auto;
-                    }
-                    .fpri-img1 {
-                        position: relative;
-                        top: 0.02rem;
-                    }
-                    .fpri-img2 {
-                        width: 0.12rem;
-                        height: auto;
-                    }
-                    .fpri-img3 {
-                        position: relative;
-                        top: 0.02rem;
-                    }
-                    .fpri-img4 {
-                        position: relative;
-                        top: 0.07rem;
                     }
                 }
-                span {
+                .fprc-contact{
+                    position: absolute;
+                    top: -0.01rem;
+                    width: 0.15rem;
+                    height: auto;
+                }
+                .fprc-email{
+                    position: absolute;
+                    top: 0.04rem;
+                    width: 0.16rem;
+                    height: auto;
+                }
+                .fprc-address{
+                    position: absolute;
+                    top: 0.02rem;
+                    left: 0.11rem;
+                    width: 0.13rem;
+                    height: auto;
+                }
+                p{
                     width: 80%;
-                    height: auto;
-                    display: block;
-                    text-align: left;
-                    font-size: 0.2rem;
-                    color: white;
-                    line-height: 0.3rem;
-                }
+                    margin-left: 15%;
+                    font-size: 0.14rem;
+                    color: white;font-weight: bold;
+                    opacity: 0.9;
+                 }
+            }
+            .fpr-content:first-child{
+                margin-top: 0.08rem;
             }
         }
     }
-    .belongs {
+    //所属版权
+    .d-attribution{
         width: 100%;
         height: auto;
-        padding: 0.2rem 0;
         text-align: center;
-        background: white;
-        padding-bottom: 1rem;
-        p {
-            color: black;
-            text-align: center;
-            font-size: 0.2rem
-        }
+        color: white;
+        font-size: 0.14rem;
+        margin: 0.2rem 0;
+        opacity: 0.5rem;
     }
     //联系方法
     .contact {
         width: 100%;
         height: auto;
         position: fixed;
-        bottom: 0;
+        bottom: -1px;
         left: 0;
         font-size: 0;
-        background: white;
+        background: rgba(28, 188, 229, 0.8);
         z-index: 3;
         ul {
             width: 100%;
@@ -166,14 +181,28 @@ footer {
                 text-align: center;
                 padding: 0.1rem 0;
                 display: block;
-                img {
-                    width: auto;
-                    height: 0.6rem;
+                div {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    background: url(../img/bottom.png)no-repeat;
+                    background-size: auto 0.8rem;
+                    background-position: 0 0;
+                    margin: 0 auto;
+                }
+                .c-telimg{
+                    background-position: 0rem 0rem;
+                }.c-qqimg{
+                    background-position: -0.8rem 0rem;
+                }
+                .chatimg{
+                    background-position: -1.6rem 0rem;
+                }
+                .c-lyimg{
+                   background-position: -2.4rem 0rem; 
                 }
                 p {
                     font-size: 0.2rem;
-                    color: black;
-                    margin-top: 0.1rem;
+                    color: white;
                 }
             }
         }
