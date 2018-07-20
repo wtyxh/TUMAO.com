@@ -63,22 +63,22 @@
 						<div class="dn">
 							<div class="dn1"><img src="img/35.jpg" style="margin-top: 70px;margin-left: 45px;"></div>
 							<div class="bd">
-								<form>
+								<form action="" onsubmit="return submitgo()">
 									<a>
 										<font style="color: red;">**郑重承诺：我们绝不会泄露您的资料，请您放心填写！</font>
-										<a>
-											</br>
-											<a>请留下您的联系方，以便我们及时联系</a>
-											</br>
-											<p>您的需求：</p>
-											<textarea type="text" style="height: 85px; width: 460px;border-radius: 10px;  border:solid 1px #DDDDDE;outline: none;padding: 10px 10px;resize:  none;"></textarea>
-											<p>您的称呼：</p>
-											<input type="text" style="height: 35px; width: 460px;border-radius: 10px;  border:solid 1px #DDDDDE;outline: none;padding: 0px 10px;" />
-											<p>您的手机：</p>
-											<input type="text" style="height: 35px; width: 460px;border-radius: 10px;  border:solid 1px #DDDDDE;outline: none;padding: 0px 10px;" />
-											<div class="f-submit">
-												<button type="submit" name="submit" id="submit">提交</button>
-											</div>
+									</a>
+									</br>
+									<a>请留下您的联系方，以便我们及时联系</a>
+									</br>
+									<p>您的需求：</p>
+									<textarea type="text" style="height: 85px; width: 460px;border-radius: 10px;  border:solid 1px #DDDDDE;outline: none;padding: 10px 10px;resize:  none;"></textarea>
+									<p>您的称呼：</p>
+									<input type="text" style="height: 35px; width: 460px;border-radius: 10px;  border:solid 1px #DDDDDE;outline: none;padding: 0px 10px;" />
+									<p>您的手机：</p>
+									<input type="text" style="height: 35px; width: 460px;border-radius: 10px;  border:solid 1px #DDDDDE;outline: none;padding: 0px 10px;" />
+									<div class="f-submit">
+										<button type="submit" name="submit" id="submit">提交</button>
+									</div>
 								</form>
 							</div>
 						</div>
@@ -122,8 +122,29 @@
 				<p class="d-attribution">重庆猫途科技有限公司 ©2018 Tumao186.com 版权所有 渝ICP备18009250号</p>
 			</div>
 		</div>
+		<div class="popup">
+			<div class="p-content">
+				<p>内容不能为空</p>
+			</div>
+		</div>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/commin.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//跳转验证
+			function submitgo() {
+				var t_val = $(".bd textarea").val();
+				if($('.bd form input').eq(0).val() == '' || $('.bd form input').eq(1).val() == '' || t_val == ''){
+					$('.popup').css('display', 'flex');
+					return false;
+				}else{
+					return true
+				}
+				
+			}
+			$('.popup').click(function(){
+				$(this).css('display', 'none')
+			})
+		</script>
 	</body>
 
 </html>

@@ -22,22 +22,31 @@ header {
         display: flex;
         flex-flow: row;
         img {
-            width: 2rem;
-            height: 0.6rem;
-            padding: 0.1rem 0.2rem;
+            width: auto;
+            height: 0.4rem;
+            padding: 0.1rem 0.4rem 0rem 0.2rem;
+            position: relative;
+            top: 0.1rem;
         }
-        a {
+        a{
             font-size: 0.16rem;
             text-decoration: none;
             color: black;
             display: block;
-            padding: 0rem 0.2rem;
-            height: 0.8rem;
-            line-height: 0.8rem;
+            padding: 0rem 0rem;
+            margin: 0 0.2rem;
+            height: 0.7rem;
+            line-height: 0.7rem;
+            outline: none;
+            &:active{
+                background: white;
+            }
         }
         .nav-active {
-            background: #3091d6;
-            color: white;
+            border-bottom: 2px solid #3091d6;
+            color: #3091d6;
+            font-size: 0.18rem;
+            font-weight: bold;
         }
     }
     .fix-nav {
@@ -156,7 +165,7 @@ footer {
         text-align: center;
         color: white;
         font-size: 0.14rem;
-        margin: 0.2rem 0;
+        margin: 0.1rem 0 0 0;
         opacity: 0.5rem;
     }
     //联系方法

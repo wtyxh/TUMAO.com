@@ -40,3 +40,13 @@ function showWechat(){
 document.getElementById('weChat').onclick = function(){
 	document.getElementById('weChat').style.display = 'none'
 }
+
+
+window.onscroll= function(){
+	var fixNav = document.getElementsByClassName('fix-nav')[0];
+	if (document.documentElement.scrollTop < 0) {
+		fixNav.style.display = 'none';
+	} else{
+		fixNav.style.display = 'flex'
+	}
+}
