@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'HYS';
+  src: url('../font/HYShangWeiShouShuW.ttf');
+}
+section {
+  background: #F4F1F2;
+  width: 100%;
+  height: auto;
+}
+section .banner {
+  width: 100%;
+  height: auto;
+  font-size: 0;
+  position: relative;
+}
+section .banner img {
+  width: 100%;
+  height: auto;
+}
+section .banner .banner-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+section .banner .banner-text h1 {
+  text-align: center;
+  font-family: 'HYS';
+  font-size: 80px;
+  color: white;
+  font-weight: normal;
+}
+section .banner .banner-text h1 span {
+  font-size: 24px;
+  font-family: "微软雅黑";
+}
+section .banner .banner-text p {
+  text-align: center;
+  color: white;
+  line-height: 60px;
+  font-size: 36px;
+}
+section .banner .banner-text p:last-child {
+  font-size: 30px;
+}
+section .banner .banner-text .b-consulting {
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+  padding: 15px 45px;
+  background: #21AFF9;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 2px;
+}
+section .banner .banner-text .b-consulting span {
+  font-size: 20px;
+  color: white;
+}
+section .banner .banner-text .b-consulting:hover {
+  background: #B25320;
+}
+section .service {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+section .service .s-title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+section .service .s-title .st-left {
+  width: 90px;
+  height: 2px;
+  background: linear-gradient(to right, #f4f1f2, #1b1b1b);
+  position: relative;
+  top: 21px;
+}
+section .service .s-title .st-left .stl-div {
+  position: absolute;
+  right: 0;
+  top: -3px;
+  width: 8px;
+  height: 8px;
+  background: #1B1B1B;
+  transform: rotate(45deg);
+}
+section .service .s-title .st-right {
+  transform: rotate(180deg);
+}
+section .service .s-title .s-text {
+  font-size: 30px;
+  color: black;
+  margin: 0 30px;
+}
+section .service .s-pardon {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 110px 0;
+}
+section .service .s-pardon .sp-item {
+  width: 235px;
+  padding: 60px 0;
+  text-align: center;
+  background: white;
+  cursor: pointer;
+  margin: 0 40px;
+  transition: all 0.2s;
+  border-radius: 2px;
+}
+section .service .s-pardon .sp-item img {
+  height: 61px;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+section .service .s-pardon .sp-item .spi-title {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+section .service .s-pardon .sp-item .spci-text {
+  font-size: 12px;
+  color: #686868;
+}
+section .service .s-pardon .sp-item:hover {
+  transform: scale(1.03, 1.03);
+  box-shadow: 0px 0px 20px 0px #888;
+}
+section .web {
+  width: 1200px;
+  height: auto;
+  background: white;
+  padding: 90px 0 10px 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+section .fix {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 0;
+  top: 150px;
+  z-index: 2;
+}
+section .fix .fix1 {
+  width: 100px;
+  height: 105px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background: #0fcafd;
+  margin: 1px 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+section .fix .fix1 p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+section .fix .fix1 .wechat-img {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  top: -4px;
+  left: -122px;
+  display: none;
+}
+section .fix .fix1 .wechat-img img {
+  width: 100%;
+  height: auto;
+}
+section .fix .f-img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+section .fix .f-QQ {
+  background: url(../img/fixri.png) no-repeat;
+  background-size: 50px;
+  background-position: 0px 0px;
+}
+section .fix .f-wchat {
+  background: url(../img/fixri.png) no-repeat;
+  background-size: 50px;
+  background-position: 0px -60px;
+}
+section .fix .f-phone {
+  background: url(../img/fixri.png) no-repeat;
+  background-size: 50px;
+  background-position: 0px -120px;
+}
+section .fix .phone-img {
+  width: 120px;
+  padding: 10px 0;
+  background: white;
+  height: auto;
+  position: absolute;
+  top: 47px;
+  left: -122px;
+  display: none;
+}
+section .fix .phone-img p {
+  color: black;
+}
+section .fix .f-sj:hover .phone-img {
+  display: block;
+}
+section .fix .f-img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+section .fix .f-wx:hover .wechat-img {
+  display: block;
+}

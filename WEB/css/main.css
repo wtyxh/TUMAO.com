@@ -291,6 +291,7 @@
 	position: fixed;
 	right: 0;
 	top: 150px;
+	z-index: 2;
 }
 
 .fix1 {
@@ -302,12 +303,46 @@
 	background: #0fcafd;
 	margin: 1px 0;
 	cursor: pointer;
+	position: relative;
+	z-index: 2;
 }
 
 .fix1 p {
 	color: white;
 	font-size: 14px;
 	text-align: center;
+}
+.fix1 .wechat-img{
+	width: 120px;
+	height: auto;
+	position: absolute;
+	top: -4px;
+    left: -122px;
+    display: none;
+}
+.fix1 .wechat-img img{
+	width: 100%;
+	height: auto;
+}
+.f-wx:hover .wechat-img{
+	display: block;
+}
+.phone-img{
+	width: 120px;
+	padding: 10px 0;
+	background: white;
+	height: auto;
+	position: absolute;
+	top: 47px;
+    left: -122px;
+    display: none;
+    
+}
+.phone-img p{
+	color: black;
+}
+.f-sj:hover .phone-img{
+	display: block;
 }
 
 .f-img {
