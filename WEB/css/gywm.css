@@ -3,7 +3,9 @@
 	width: 100%;
 	height: 478px;
 	background: #50b4fa;
-	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#9ce4fb), to(#4bb0f7));
+	/*background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#9ce4fb), to(#4bb0f7));*/
+	background-image: url('../img/othor-banner.png');
+	background-size: 100% auto;
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
@@ -15,6 +17,9 @@
 .top_2{ 
 	width: 484px;
 	height: 478px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
 }
 .top_2 img{
 	width: 100%;

@@ -1,418 +1,221 @@
+@font-face {
+  font-family: 'HYS';
+  src: url('../font/HYShangWeiShouShuW.ttf');
+}
 section {
   width: 100%;
   height: auto;
 }
 section .banner {
   width: 100%;
-  height: 4rem;
-  background: linear-gradient(#0591f3, #7ec9fd);
+  height: 6.5rem;
+  background-image: url('../img/index/banner.png');
+  background-size: 100% auto;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: center;
+  text-align: center;
 }
-section .banner .b-pardon {
+section .banner h1 {
+  font-family: 'HYS';
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  position: relative;
+  top: -0.1rem;
+}
+section .banner p {
+  color: white;
+  font-size: 0.2rem;
+  text-align: center;
+  position: relative;
+  top: -0.1rem;
+}
+section .banner a {
+  font-size: 0.2rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.1rem 0.2rem;
+  background: #1A9FFD;
+  width: 1.5rem;
+  text-align: center;
+  border: 1px solid white;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+section .servive {
+  padding: 0.5rem 0 0.5rem 0;
+  border-bottom: 1px solid #E7E6E6;
+}
+section .servive .s-title {
+  text-align: center;
+  font-size: 0.28rem;
+}
+section .servive .s-english {
+  font-size: 0.2rem;
+  text-align: center;
+  color: #aaa9a9;
+  margin-bottom: 0.2rem;
+}
+section .servive .s-pardon {
   width: 95%;
   height: auto;
+  margin: 0 auto;
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+section .servive .s-pardon .sp-item {
+  width: 1.4rem;
+  height: auto;
+  text-align: center;
+}
+section .servive .s-pardon .sp-item img {
+  width: 90%;
+  height: auto;
   margin: 0 auto;
 }
-section .banner .b-pardon .b-text {
-  width: 40%;
-  height: auto;
-  line-height: 0.28rem;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-section .banner .b-pardon .b-text i {
-  display: block;
-  flex: 1;
-}
-section .banner .b-pardon .b-text p {
-  font-size: 0.15rem;
-  color: white;
-  text-indent: 0.2rem;
-}
-section .banner .b-pardon .b-text .bt-title {
-  font-weight: bold;
-  font-size: 0.28rem;
-}
-section .banner .b-pardon .b-text span {
-  font-size: 0.28rem;
-  color: #34a9fa;
-  width: 1.8rem;
+section .servive .s-pardon .sp-item .spi-title {
+  font-size: 0.2rem;
   text-align: center;
-  padding: 0.1rem 0;
-  border-radius: 1rem;
-  background: white;
-  margin-left: 0.15rem;
-  margin-top: 0.05rem;
 }
-section .banner .b-pardon .b-img {
-  flex: 1;
-  height: auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
+section .servive .s-pardon .sp-item .spi-text {
+  font-size: 0.1rem;
+  text-align: center;
 }
-section .banner .b-pardon .b-img img {
+section .sc-item {
   width: 100%;
   height: auto;
+  padding: 0.5rem 0 0.5rem 0;
 }
-section .service {
-  width: 100%;
-  height: auto;
-  padding: 0.3rem 0;
-}
-section .service .s-title {
-  font-size: 0.28rem;
-  text-align: center;
-  font-weight: bold;
-}
-section .service .s-segmentation {
+section .sc-item .sci-title {
+  margin: 0 auto;
   width: 2rem;
-  height: 0.1rem;
-  margin: 0.05rem auto;
+  height: 0.6rem;
+  background: black;
+  font-size: 0;
+  padding-left: 0rem;
+  text-align: center;
+}
+section .sc-item .sci-title img {
+  width: 0.5rem;
+  height: auto;
+  position: relative;
+  top: 0.08rem;
+}
+section .sc-item .sci-title span {
+  color: white;
+  font-size: 0.28rem;
+  position: relative;
+  top: -0.05rem;
+  margin-left: 0.1rem;
+}
+section .sc-item .sci-title2 {
+  text-align: center;
+  color: #B5B6B6;
+  font-size: 0.2rem;
+  margin: 0.1rem 0;
+}
+section .sc-item .sci-img {
+  width: 80%;
+  height: auto;
+  margin: 0.3rem auto;
+  display: block;
+}
+section .sc-item .sci-pardon {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  border: 1px solid #C4C4C4;
 }
-section .service .s-segmentation .ss-big {
+section .sc-item .sci-pardon .scip-item {
   flex: 1;
-  height: 0.02rem;
-  background: #5a5a5f;
+  padding: 0.2rem 0;
+  text-align: center;
+  font-size: 0;
+  border-right: 1px solid #C4C4C4;
+}
+section .sc-item .sci-pardon .scip-item:last-child {
+  border-right: none;
+}
+section .sc-item .sci-pardon .scip-item img {
+  width: auto;
+  height: 0.6rem;
+}
+section .sc-item .sci-pardon .scip-item p {
+  font-size: 0.2rem;
+  margin-top: 0.1rem;
+}
+section .sc-item .sci-more {
+  font-size: 0;
+  text-align: right;
+  margin-top: 0.2rem;
+}
+section .sc-item .sci-more a {
+  display: inline-block;
+  font-size: 0.1rem;
+  text-decoration: none;
+  text-align: center;
+  width: 0.8rem;
+  height: 0.2rem;
+  border: 1px solid #C4C4C4;
+  line-height: 0.2rem;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  color: #9e9e9e;
+}
+section .sc-item .sci-more a span {
+  position: relative;
+  top: 0.015rem;
+}
+section .mobile .sci-title {
+  background: #d44045;
+}
+section .mobile .sci-title img {
+  position: relative;
+  top: 0.05rem;
+}
+section .mobile .sci-title span {
+  position: relative;
+  top: -0.08rem;
+}
+section .software .sci-title {
+  background: #f77804;
+}
+section .software .sci-title img {
+  position: relative;
+  top: 0.12rem;
+}
+section .software .sci-title span {
   position: relative;
   top: 0.01rem;
 }
-section .service .s-segmentation .ss-smalll {
-  display: inline-block;
-  width: 0.4rem;
-  height: 0.06rem;
-  background: #5a5a5f;
-  margin: 0 0.05rem;
+section .marketing .sci-title {
+  width: 2.2rem;
+  background: #f6a414;
 }
-section .service .s-english {
-  font-size: 0.2rem;
-  text-align: center;
-  color: #aaa9a9;
-}
-section .service .s-item {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-}
-section .service .s-item div {
-  font-size: 0;
-  margin-top: 0.3rem;
-  text-align: center;
-}
-section .service .s-item div img {
-  width: 0.7rem;
-  height: 0.55rem;
-  margin: 0 auto;
-  margin-bottom: 0.1rem;
-}
-section .service .s-item div .si-title {
-  font-size: 0.12rem;
-  text-align: center;
-}
-section .service .s-item div .si-instructions {
-  font-size: 0.08rem;
-  text-align: center;
-  color: #8f8f8f;
-}
-section .service .s-item .si-side {
-  flex: 1;
-}
-section .service .s-item .si-center {
-  width: 2。5rem;
-}
-section .enterprise {
-  width: 100%;
-  height: auto;
-  background: #f2f1f1;
-  padding: 0.2rem 0 0.2rem 0;
-  font-size: 0;
-  text-align: center;
-}
-section .enterprise .e-title {
-  font-size: 0.28rem;
-  text-align: center;
-  font-weight: bold;
-}
-section .enterprise .e-instructions {
-  font-size: 0.2rem;
-  text-align: center;
-  color: #aaa9a9;
-  margin: 0.1rem 0;
-}
-section .enterprise img {
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
+section .marketing .sci-title img {
   position: relative;
+  top: 0.05rem;
 }
-section .enterprise .e-more {
-  font-size: 0.2rem;
-  color: #2aa8ea;
-  width: 95%;
-  margin: 0 auto;
-  text-align: right;
+section .marketing .sci-title span {
+  position: relative;
+  top: -0.05rem;
 }
-section .enterprise .e-more a {
-  display: block;
-  width: 100%;
-  text-align: right;
-  color: #2aa8ea;
-  text-decoration: none;
+section .visual .sci-title {
+  width: 2.2rem;
+  background: #264ade;
 }
-section .mall {
-  width: 100%;
-  height: auto;
-  padding: 0.4rem 0 0.3rem 0;
-  background: #fef6f6;
+section .visual .sci-title img {
+  position: relative;
+  top: 0.05rem;
 }
-section .mall .m-pardon {
-  width: 95%;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-}
-section .mall .m-pardon .mp-text {
-  width: 50%;
-  height: auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-section .mall .m-pardon .mp-text .mpt-title {
-  font-size: 0.28rem;
-  color: black;
-  text-align: center;
-}
-section .mall .m-pardon .mp-text .mpt-title span {
-  color: #f54940;
-}
-section .mall .m-pardon .mp-text .mp-instructions {
-  font-size: 0.2rem;
-  color: #aaa9a9;
-  text-align: center;
-  margin-top: 0.1rem;
-}
-section .mall .m-pardon .mp-img {
-  flex: 1;
-  height: auto;
-  text-align: center;
-}
-section .mall .m-pardon .mp-img img {
-  width: 70%;
-  height: auto;
-}
-section .mall .mp-more {
-  font-size: 0.2rem;
-  color: #FD6059;
-  width: 95%;
-  margin: 0 auto;
-  text-align: right;
-}
-section .mall .mp-more a {
-  display: block;
-  width: 100%;
-  text-align: right;
-  color: #2aa8ea;
-  text-decoration: none;
-}
-section .system {
-  width: 100%;
-  height: auto;
-  background: #fef6eb;
-  display: flex;
-  flex-flow: column;
-  padding: 0.3rem 0;
-}
-section .system .s-title {
-  font-size: 0.28rem;
-  color: black;
-  text-align: center;
-}
-section .system .s-title span {
-  color: #fcc693;
-}
-section .system .s-instructions {
-  font-size: 0.2rem;
-  color: #aaa9a9;
-  text-align: center;
-  margin: 0.2rem;
-}
-section .system .s-img {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  margin: 0.1rem 0;
-}
-section .system .s-img img {
-  width: 70%;
-  height: auto;
-}
-section .system .s-more {
-  font-size: 0.2rem;
-  color: #fad5b2;
-  width: 95%;
-  margin: 0 auto;
-  text-align: right;
-}
-section .system .s-more a {
-  display: block;
-  width: 100%;
-  text-align: right;
-  color: #2aa8ea;
-  text-decoration: none;
-}
-section .pay {
-  width: 100%;
-  height: auto;
-  background: #eff3fe;
-  display: flex;
-  flex-flow: column;
-  padding: 0.3rem 0;
-}
-section .pay .p-title {
-  font-size: 0.28rem;
-  color: black;
-  text-align: center;
-}
-section .pay .p-title span {
-  color: #32a0fe;
-}
-section .pay .p-instructions {
-  font-size: 0.2rem;
-  color: #aaa9a9;
-  text-align: center;
-  margin: 0.2rem 0;
-}
-section .pay .p-img {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  margin: 0.1rem 0;
-}
-section .pay .p-img img {
-  width: 70%;
-  height: auto;
-}
-section .pay .p-more {
-  font-size: 0.2rem;
-  color: #6fb2fd;
-  width: 95%;
-  margin: 0 auto;
-  text-align: right;
-}
-section .pay .p-more a {
-  display: block;
-  width: 100%;
-  text-align: right;
-  color: #2aa8ea;
-  text-decoration: none;
-}
-section .software {
-  width: 100%;
-  height: auto;
-  background: white;
-  display: flex;
-  flex-flow: column;
-  padding: 0.3rem 0;
-}
-section .software .so-title {
-  font-size: 0.28rem;
-  color: black;
-  text-align: center;
-}
-section .software .so-title span {
-  color: #1dd786;
-}
-section .software .so-instructions {
-  font-size: 0.2rem;
-  color: #aaa9a9;
-  text-align: center;
-  margin: 0.2rem 0;
-}
-section .software .so-img {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  margin: 0.1rem 0;
-}
-section .software .so-img img {
-  width: 70%;
-  height: auto;
-}
-section .software .so-more {
-  font-size: 0.2rem;
-  color: #44b19c;
-  width: 95%;
-  margin: 0 auto;
-  text-align: right;
-}
-section .software .so-more a {
-  display: block;
-  width: 100%;
-  text-align: right;
-  color: #2aa8ea;
-  text-decoration: none;
-}
-section .marketing {
-  width: 100%;
-  height: auto;
-  background: #fcf6ed;
-  display: flex;
-  flex-flow: column;
-  padding: 0.3rem 0;
-}
-section .marketing .m-title {
-  font-size: 0.28rem;
-  color: black;
-  text-align: left;
-  text-indent: 18%;
-}
-section .marketing .m-title span {
-  color: #fb9e2c;
-}
-section .marketing .m-instructions {
-  font-size: 0.23rem;
-  color: #aaa9a9;
-  text-align: center;
-  margin: 0.2rem 0;
-}
-section .marketing .m-img {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  margin: 0.1rem 0;
-}
-section .marketing .m-img img {
-  width: 40%;
-  height: auto;
-}
-section .marketing .m-more {
-  font-size: 0.2rem;
-  color: #fb9a20;
-  width: 95%;
-  margin: 0 auto;
-  text-align: right;
-}
-section .marketing .m-more a {
-  display: block;
-  width: 100%;
-  text-align: right;
-  color: #2aa8ea;
-  text-decoration: none;
+section .visual .sci-title span {
+  position: relative;
+  top: -0.05rem;
 }
 section .custom {
   width: 100%;
@@ -423,28 +226,6 @@ section .custom .c-title {
   font-size: 0.28rem;
   text-align: center;
   font-weight: bold;
-}
-section .custom .c-segmentation {
-  width: 2rem;
-  height: 0.1rem;
-  margin: 0.05rem auto;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-}
-section .custom .c-segmentation .cs-big {
-  flex: 1;
-  height: 0.02rem;
-  background: #5a5a5f;
-  position: relative;
-  top: 0.01rem;
-}
-section .custom .c-segmentation .cs-smalll {
-  display: inline-block;
-  width: 0.4rem;
-  height: 0.06rem;
-  background: #5a5a5f;
-  margin: 0 0.05rem;
 }
 section .custom .c-english {
   font-size: 0.2rem;
@@ -476,15 +257,16 @@ section .custom .process-img .pi-top ul li {
   width: 0.8rem;
   height: 0.8rem;
   text-align: center;
-  background: #fc8a03;
+  background: white;
   list-style: none;
   border-radius: 50%;
+  border: 1px dashed #3a3a3f;
 }
 section .custom .process-img .pi-top ul li p {
   font-size: 0.15rem;
 }
 section .custom .process-img .pi-top ul li p:first-child {
-  margin-top: 0.15rem;
+  margin-top: 0.18rem;
 }
 section .custom .process-img .pi-center {
   width: 5.5rem;
@@ -505,8 +287,8 @@ section .custom .process-img .pi-center .pic-round {
 section .custom .process-img .pi-center .pic-round li {
   width: 0.05rem;
   height: 0.05rem;
-  background: #4e4d4b;
-  border: 1px solid #fb8b03;
+  background: #3a3a3f;
+  border: 1px dashed #3a3a3f;
   list-style: none;
   border-radius: 50%;
 }
@@ -529,7 +311,7 @@ section .custom .process-img .pi-center .pic-text span {
   opacity: 0.5;
 }
 section .custom .process-img .pi-center .pic-text span:last-child {
-  margin-left: 0.23rem;
+  margin-left: 0.2rem;
 }
 section .custom .process-img .pi-center .pic-text span:first-child {
   margin-left: 0.1rem;
@@ -537,11 +319,12 @@ section .custom .process-img .pi-center .pic-text span:first-child {
 section .custom .process-img .pi-center .pic-line {
   position: absolute;
   top: 0.03rem;
-  left: 0;
+  left: 50%;
   z-index: 1;
-  width: 100%;
+  width: 5rem;
+  margin-left: -2.5rem;
   height: 1px;
-  background: #fb8b03;
+  background: #28292e;
 }
 section .custom .process-img .pi-buttom {
   width: 4.6rem;
@@ -559,13 +342,14 @@ section .custom .process-img .pi-buttom ul li {
   width: 0.8rem;
   height: 0.8rem;
   text-align: center;
-  background: #434343;
+  background: white;
   list-style: none;
   border-radius: 50%;
+  border: 1px dashed #28292e;
 }
 section .custom .process-img .pi-buttom ul li p {
   font-size: 0.15rem;
-  color: white;
+  color: black;
 }
 section .custom .process-img .pi-buttom ul li p:first-child {
   margin-top: 0.15rem;

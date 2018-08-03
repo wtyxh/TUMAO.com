@@ -1,149 +1,204 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="utf-8" />
-		<meta name="baidu-site-verification" content="kMfbkcTnQ0" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>途猫科技</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
-		<link rel="stylesheet" href="css/common.css">
-		<link rel="stylesheet" href="css/lxwm.css" />
-	</head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="baidu-site-verification" content="kMfbkcTnQ0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>途猫科技</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/lxwm.css" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
 
-	<body id="body" style="visibility:hidden;">
-		<header>
-			<!--顶部导航-->
-			<nav>
-				<img src="img/index/logo.png" alt="logo" />
-				<a href="index.html">首页</a>
-				<a href="zxal.html">最新案例</a>
-				<a href="gywm.html">关于我们</a>
-				<a href="lxwm.html" class="nav-active">联系我们</a>
-			</nav>
-			<nav class="fix-nav">
-				<img src="img/index/logo.png" alt="logo" />
-				<a href="index.html">首页</a>
-				<a href="zxal.html">最新案例</a>
-				<a href="gywm.html">关于我们</a>
-				<a href="lxwm.html" class="nav-active">联系我们</a>
-			</nav>
-		</header>
-		<section>
-			<!-- banner -->
-			<div class="banner">
-				<div class="b-pardon">
-					<div class="b-text">
-						<i></i>
-						<p>首选重庆途猫科技</p>
-						<p>IOS App、安卓App、微信公众号、小程序和移动网站完美支持</p>
-						<p>打造最全面移动解决方案</p>
-						<i></i>
+<body id="body" style="visibility:hidden;">
+	<header>
+		<!--顶部导航-->
+		<nav>
+			<div class="mean-left">
+				<a href="index.html" class="ml-logo">
+					<img src="img/phone.png" alt="重庆途猫科技有限公司" />
+					<div class="mll-text">
+						<p class="mllt-title">重庆途猫科技</p>
+						<p class="mllt-english">CHONGQINGTUMAOKEJI</p>
 					</div>
-					<div class="b-img">
-						<img src="img/zxal/22.jpg" />
+				</a>
+			</div>
+			<a href="index.html">首页</a>
+			<a href="zxal.html">最新案例</a>
+			<a href="gywm.html">关于我们</a>
+			<a href="lxwm.html" class="nav-active">联系我们</a>
+		</nav>
+		<nav class="fix-nav">
+			<div class="mean-left">
+				<a href="index2.html" class="ml-logo">
+					<img src="img/phone.png" alt="重庆途猫科技有限公司" />
+					<div class="mll-text">
+						<p class="mllt-title">重庆途猫科技</p>
+						<p class="mllt-english">CHONGQINGTUMAOKEJI</p>
 					</div>
+				</a>
+			</div>
+			<a href="index.html">首页</a>
+			<a href="zxal.html">最新案例</a>
+			<a href="gywm.html">关于我们</a>
+			<a href="lxwm.html" class="nav-active">联系我们</a>
+		</nav>
+	</header>
+	<section>
+		<!-- banner -->
+		<div class="banner">
+			<img src="img/othor-banner.png" alt="重庆途猫科技">
+			<div class="banner-text">
+				<div class="b-text">
+					<h1>重庆途猫科技</h1>
+					<p>IOS App、安卓App、微信公众号、小程序和移动网站</p>
+					<p>完美支持，打造最全面移动解决方案</p>
 				</div>
 			</div>
-			<!--联系我们-->
-			<p class="location">您当前所在的位置 ：联系我们</p>
-			<div class="content">
-				<p class="c-title">联系我们</p>
-				<!--<div class="c-segmentation">
+		</div>
+		<!--联系我们-->
+		<p class="location">您当前所在的位置 ：联系我们</p>
+		<div class="content">
+			<p class="c-title">联系我们</p>
+			<!--<div class="c-segmentation">
 					<div class="cs-big"></div>
 					<div class="cs-smalll"></div>
 					<div class="cs-big"></div>
 				</div>-->
-				<p class="c-english">Contact Us</p>
-				<div class="c-img">
-					<img src="img/index/矩形-33@2x.png" alt="联系我们" title="联系我们" />
+			<p class="c-english">Contact Us</p>
+			<div class="c-img">
+				<img src="img/index/矩形-33@2x.png" alt="联系我们" title="联系我们" />
+			</div>
+			<div class="c-form">
+				<form action="" method="post" onsubmit="return submitgo()">
+					<p class="cf-focus">**郑重承诺：我们绝不会泄露您的资料，请放心填写</p>
+					<p class="cf-text">请留下您的联系方式，以便于我们能及时联系您</p>
+					<p class="cf-text">您的需求：</p>
+					<textarea name="txtNeed" id="" cols="30" rows="10" class="cf-textarea"></textarea>
+					<p class="cf-text">您的称呼：</p>
+					<input name="txtName" type="text" class="cf-name cf-input" />
+					<p class="cf-text">您的手机：</p>
+					<input name="txtTel" type="text" class="cf-phone cf-input" />
+					<div class="cf-submit">
+						<input type="submit" value="提交" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="f-pardon">
+			<div class="fp-left">
+				<div class="fpl-img">
+					<img src="img/phone2.png" alt="电话" title="电话" />
 				</div>
-				<div class="c-form">
-					<form action="" method="post" onsubmit="return false">
-						<p class="cf-focus">**郑重承诺：我们绝不会泄露您的资料，请放心填写</p>
-						<p class="cf-text">请留下您的联系方式，以便于我们能及时联系您</p>
-						<p class="cf-text">您的需求：</p>
-						<textarea name="" id="" cols="30" rows="10" class="cf-textarea" ></textarea>
-						<p class="cf-text">您的称呼：</p>
-						<input type="text" class="cf-name cf-input" />
-						<p class="cf-text">您的手机：</p>
-						<input type="text" class="cf-phone cf-input" />
-						<div class="cf-submit">
-							<input type="submit" value="提交" />
-						</div>
-					</form>
+				<div class="fpl-text">
+					<p>咨询热线</p>
+					<p>座机 ：023-6776-7182</p>
+					<p>手机 ：185-0236-7112</p>
 				</div>
 			</div>
-		</section>
-		<footer>
-			<div class="f-pardon">
-				<div class="fp-left">
-					<div class="fpl-img">
-						<img src="img/phone.png" alt="电话" title="电话" />
+			<div class="fp-right">
+				<div class="fpr-content">
+					<div class="fprc-img fprc-contact">
+						<img src="img/index/18.jpg" alt="联系人" title="联系人" />
 					</div>
-					<div class="fpl-text">
-						<p>咨询热线</p>
-						<p>座机 ：023-6776-7182</p>
-						<p>手机 ：185-0236-7112</p>
-					</div>
+					<p><span class="fpr-1">联系人</span>&nbsp;:&nbsp;<span>张经理</span></p>
 				</div>
-				<div class="fp-right">
-					<div class="fpr-content">
-						<div class="fprc-img fprc-contact">
-							<img src="img/index/18.jpg" alt="联系人" title="联系人" />
-						</div>
-						<p>联 系 人 &nbsp;&nbsp;：张经理</p>
+				<div class="fpr-content">
+					<div class="fprc-img fprc-email">
+						<img src="img/index/15.jpg" alt="邮箱" title="邮箱" />
 					</div>
-					<div class="fpr-content">
-						<div class="fprc-img fprc-email">
-							<img src="img/index/15.jpg" alt="邮箱" title="邮箱" />
-						</div>
-						<p>电子邮箱 ：Tumao186@qq.com</p>
+					<p><span class="fpr-1">电子邮箱</span>&nbsp;:&nbsp;<span>Tumao186@qq.com</span></p>
+				</div>
+				<div class="fpr-content">
+					<div class="fprc-img fprc-address">
+						<img src="img/index/16.jpg" alt="地址" title="地址" />
 					</div>
-					<div class="fpr-content">
-						<div class="fprc-img fprc-address">
-							<img src="img/index/16.jpg" alt="地址" title="地址" />
-						</div>
-						<p>联系地址 ：重庆市渝北区洋河北路19号御景天成9栋703室</p>
-					</div>
+					<p><span class="fpr-1">联系地址</span>&nbsp;:&nbsp;<span>重庆市渝北区洋河北路19号御景天成9栋703室</span></p>
 				</div>
 			</div>
-			<p class="d-attribution">重庆猫途科技有限公司 ©2018 Tumao186.com 版权所有 渝ICP备18009250号</p>
-			<!--联系方法（底部QQ、 电话、微信、消息）-->
-			<div class="contact">
-				<ul>
-					<li>
-						<a href="tel:18502367112" style="display: block; text-decoration: none;">
-							<div class="c-telimg"></div>
-							<p>电话咨询</p>
-						</a>
-					</li>
-					<li onclick="chatQQ();">
-						<div class="c-qqimg"></div>
-						<p>QQ</p>
-					</li>
-					<li onclick="showWechat();">
-						<div class="chatimg"></div>
-						<p>微信</p>
-					</li>
-					<li>
-						<a href="lxwm.html" style="display: block; text-decoration: none;">
-							<div class="c-lyimg"></div>
-							<p>留言</p>
-						</a>
-					</li>
-				</ul>
+		</div>
+		<p class="d-attribution">重庆猫途科技有限公司 ©2018 Tumao186.com 版权所有 渝ICP备18009250号</p>
+		<!--联系方法（底部QQ、 电话、微信、消息）-->
+		<div class="contact">
+			<ul>
+				<li>
+					<a href="tel:18502367112" style="display: block; text-decoration: none;">
+						<div class="c-telimg"></div>
+						<p>电话咨询</p>
+					</a>
+				</li>
+				<li onclick="chatQQ();">
+					<div class="c-qqimg"></div>
+					<p>线上咨询</p>
+				</li>
+				<li onclick="showWechat();">
+					<div class="chatimg"></div>
+					<p>微信咨询</p>
+				</li>
+				<li>
+					<a href="lxwm.html" style="display: block; text-decoration: none;">
+						<div class="c-lyimg"></div>
+						<p>留言</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--微信二维码联系方式-->
+		<div class="weChat" id="weChat">
+			<div class="w-pardon">
+				<i></i>
+				<img src="img/index/12.jpg" alt="途猫二维码" title="途猫二维码" />
+				<i></i>
 			</div>
-			<!--微信二维码联系方式-->
-			<div class="weChat" id="weChat">
-				<div class="w-pardon">
-					<i></i>
-					<img src="img/index/12.jpg" alt="途猫二维码" title="途猫二维码" />
-					<i></i>
-				</div>
-			</div>
-		</footer>
-		<script type="text/javascript" src="vendoor/webapp.js"></script>
-	</body>
+		</div>
+	</footer>
+	<script type="text/javascript" src="vendoor/webapp.js"></script>
+	<script src="vendoor/jquery.min.js"></script>
+	<script>
+		//是否清空表单
+		resultForm = false;
+		//跳转验证
+		function submitgo() {
+			var formData = new FormData($('form')[0])
+			var t_val = $(".bd textarea").val();
+			if ($('.bd form input').eq(0).val() == '' || $('.bd form input').eq(1).val() == '' || t_val == '') {
+				$('.popup .p-content p').text('内容不能为空!')
+				$('.popup').css('display', 'flex');
+				return false;
+			} else {
+				console.log(formData)
+				$.ajax({
+					type: "post",
+					url: "http://192.168.1.7/api/Contact/AddFeedBack",
+					async: true,
+					dataType: 'json',
+					contentType: false,
+					processData: false,
+					data: formData,
+					success: function (res) {
+						res == '1' ? $('.popup .p-content p').text('已提交！') : $('.popup .p-content p').text('提交失败！');
+						resultForm = true;
+						$('.popup').css('display', 'flex');
+						console.log(res)
+					},
+					error: function (err) {
+
+					}
+				});
+				return false;
+			}
+
+		}
+		$('.popup').click(function () {
+			$(this).css('display', 'none');
+			resultForm == true ? $('input').val('') : '';
+			resultForm == true ? $('textarea').val('') : '';
+		})
+	</script>
+</body>
 
 </html>
